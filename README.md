@@ -105,6 +105,20 @@ Antes de publicar:
 
 O projeto inclui metadados Open Graph, Twitter Card, canonical condicional, `robots.txt`, `sitemap.xml`, manifest, favicon e dados estruturados `Service`. O Schema não declara endereço, avaliações, preço, credenciamento ou dados empresariais não fornecidos.
 
+## Informações legais revisadas
+
+O conteúdo sobre a etapa prática foi revisado em 11 de setembro de 2026 com base em fontes oficiais:
+
+- Detran-SP — CNH Paulista: `https://detran.sp.gov.br/cnhpaulista/`
+- Resolução CONTRAN nº 1.020/2025: `https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10202025.pdf`
+- Portal CNH do Brasil: `https://www.gov.br/transportes/pt-br/cnh-do-brasil/`
+
+O site informa que a carga mínima para as categorias A e B é de 2 horas práticas, que a LADV deve ser emitida antes das aulas, que o veículo pode ser do instrutor ou do candidato conforme os requisitos aplicáveis e que a baliza não é obrigatória no exame prático paulista. Também registra a possibilidade de veículo automático e de veículo próprio ou de terceiros no exame, além da exigência de exame toxicológico para processos iniciados a partir de 17/06/2026. Revalide periodicamente essas informações, pois normas e procedimentos operacionais podem mudar.
+
+## Imagem ilustrativa temporária
+
+O arquivo `dist/assets/images/instrutor-ilustrativo.webp` foi gerado por IA e está marcado visualmente no site como “Imagem ilustrativa”. Ele representa um personagem fictício e não deve ser tratado como fotografia de Erick Fernandes Gonçalves. Quando houver uma foto real, substitua os caminhos `heroPhoto` e `instructorPhoto` em `config.js` e altere `illustrativePhoto` para `false`.
+
 ### Configurar domínio
 
 No provedor de hospedagem, adicione o domínio personalizado e siga as instruções de DNS fornecidas por ele. Normalmente isso envolve um registro `CNAME` ou registros `A`. Depois que o domínio estiver ativo, atualize `siteUrl`, `robots.txt` e `sitemap.xml`.

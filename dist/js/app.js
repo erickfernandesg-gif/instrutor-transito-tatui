@@ -93,13 +93,19 @@
     if (!wrapper || !source) return;
     const image = document.createElement("img");
     image.src = source;
-    image.alt = alt;
+    image.alt = config.illustrativePhoto ? "Imagem ilustrativa temporária de um instrutor de trânsito ao lado de um veículo" : alt;
     image.width = 760;
     image.height = 880;
     image.loading = selector.includes("hero") ? "eager" : "lazy";
     if (selector.includes("hero")) image.fetchPriority = "high";
     image.decoding = "async";
     wrapper.replaceChildren(image);
+    if (config.illustrativePhoto) {
+      const badge = document.createElement("span");
+      badge.className = "media-frame__illustrative";
+      badge.textContent = "Imagem ilustrativa";
+      wrapper.append(badge);
+    }
     wrapper.classList.add("media-frame--has-image");
   };
 

@@ -4,10 +4,10 @@
  * Telefones devem usar apenas números, com DDI e DDD. Ex.: 5515999999999.
  */
 window.SITE_CONFIG = {
-  businessName: "Instrutor de Trânsito Tatuí",
-  instructorName: "",
-  phone: "",
-  whatsapp: "",
+  businessName: "Erick Fernandes",
+  instructorName: "Erick Fernandes Gonçalves",
+  phone: "(11) 98345-7325",
+  whatsapp: "5511983457325",
   whatsappMessage: "Olá! Encontrei seu site e gostaria de saber mais sobre as aulas práticas de direção em Tatuí.",
   instagram: "",
   instagramLabel: "",
@@ -22,10 +22,11 @@ window.SITE_CONFIG = {
   credentialNumber: "",
   credentialStatus: false,
   openingHours: "",
-  instructorPhoto: "",
-  heroPhoto: "",
+  instructorPhoto: "/assets/images/instrutor-ilustrativo.webp",
+  heroPhoto: "/assets/images/instrutor-ilustrativo.webp",
+  illustrativePhoto: true,
   vehiclePhotos: [],
-  siteUrl: "",
+  siteUrl: "https://instrutor-transito-tatui-sp.advanced-res-4221.chatgpt.site",
   analytics: {
     googleAnalyticsId: "",
     googleTagManagerId: "",
