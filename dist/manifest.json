@@ -1,0 +1,13 @@
+{
+  "name": "Instrutor de Trânsito Tatuí",
+  "short_name": "Instrutor Tatuí",
+  "description": "Aulas práticas de direção categoria B em Tatuí/SP.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071e26",
+  "theme_color": "#071e26",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
