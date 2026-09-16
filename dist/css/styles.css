@@ -478,3 +478,45 @@ h1 em, h2 em { color: var(--lime); font-style: normal; }
 .whatsapp-float { color: #ffffff; background: var(--lime); }
 .whatsapp-float:hover { background: var(--lime-deep); }
 @media (max-width: 620px) { .button, .contact__content .button, .lessons__intro .button { width: 100%; } .section { padding-block: 4.5rem; } .process__steps li { padding: 1.25rem; } .faq__item { padding-inline: 1rem; } }
+.landing-page {
+  --ink: #0f172a;
+  --ink-2: #1e293b;
+  --ink-3: #334155;
+  --lime: #10b981;
+  --lime-deep: #059669;
+  --cream: #f8fafc;
+  --white: #ffffff;
+  --muted: #334155;
+  --line: #e2e8f0;
+  --surface: #f1f5f9;
+  --shadow: 0 18px 45px rgba(15, 23, 42, .10);
+  --shadow-hover: 0 25px 55px rgba(15, 23, 42, .16);
+  color: var(--ink);
+  background: var(--cream);
+}
+.landing-page .section-heading > p { line-height: 1.7; }
+.landing-page .hero__actions .button,
+.landing-page .contact__content .button { min-height: 58px; padding-inline: 1.75rem; }
+.landing-page .feature-card,
+.landing-page .regulation__grid article,
+.landing-page .process__steps li,
+.landing-page .skills-panel,
+.landing-page .price-card,
+.landing-page .faq__item,
+.landing-page .contact-form { will-change: transform; }
+.landing-page .skills-list li { border-radius: 10px; transition: background .3s ease, transform .3s ease; }
+.landing-page .skills-list li:hover { background: #ecfdf5; transform: translateX(4px); }
+.landing-page .faq__question { min-height: 82px; }
+.landing-page .faq__item:hover .faq__question { color: #ffffff; }
+.landing-page .whatsapp-float { animation: whatsapp-pulse 2.4s ease-in-out infinite; }
+@keyframes whatsapp-pulse {
+  0%, 100% { box-shadow: 0 12px 35px rgba(15, 23, 42, .25); }
+  50% { box-shadow: 0 16px 42px rgba(16, 185, 129, .42); }
+}
+@media (max-width: 620px) {
+  .landing-page .hero__actions .button,
+  .landing-page .contact__content .button { min-height: 56px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .landing-page .whatsapp-float { animation: none; }
+}
