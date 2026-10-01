@@ -23,7 +23,7 @@ window.SITE_CONFIG = {
   credentialStatus: false,
   openingHours: "",
   instructorPhoto: "./assets/images/instrutor-ilustrativo.webp",
-  heroPhoto: "./assets/images/instrutor-ilustrativo.webp",
+  heroPhoto: "./assets/images/hero-ilustrativo.jpg",
   illustrativePhoto: true,
   vehiclePhotos: [],
   siteUrl: "https://instrutor-transito-tatui-sp.advanced-res-4221.chatgpt.site",
